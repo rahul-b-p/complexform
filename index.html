@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="cform">
+            <form action="">
+                <label for="name">Name :</label>
+                <input id="name" type="text">
+                <div class="age">
+                    <label for="age">Age :</label>
+                    <input id="age" type="number" min="21" max="35">
+                </div>
+                <br><br>
+                <label id="" for="gender">Gender</label>
+                <div class="gender">
+                    <label for="male">male</label>
+                    <input style="height: fit-content; margin-left: 5px;" name="gender" id="male" type="radio">
+                    <label for="female">female</label>
+                    <input style="height: fit-content; margin-left: 5px;" name="gender" id="female" type="radio">
+                    <label for="others">Others</label>
+                    <input style="height: fit-content; margin-left: 5px;" name="gender" id="others" type="radio">
+                </div>
+                <br><br>
+                <label for="qualification">Qualification</label>
+                <select id="qualification">
+                    <option value="B.tech">B.tech</option>
+                    <option value="M.tech">M.tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BSC">BSC</option>
+                    <option value="MSC">MSC</option>
+                </select> 
+                <label for="course">Course</label>
+                <select id="course">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Computer Applications">Computer Applications</option>
+                    <option value="Electronics and Communications">Electronics and Communications</option>
+                </select>
+                <br><br>
+                <label for="skills">Skills</label>
+                <br>
+                <label for="python">PYTHON</label><input style="height: fit-content; margin-left: 5px;" class="skills" id="Python" type="checkbox">      
+                <label for="java">JAVA</label><input style="height: fit-content; margin-left: 5px;" class="skills" id="java" type="checkbox"> 
+                <label for="js">JAVASCRIPT</label><input style="height: fit-content; margin-left: 5px;" id="js" type="checkbox"> 
+                <label for="react">REACT</label><input style="height: fit-content; margin-left: 5px;" class="skills" id="react" type="checkbox"> 
+                <label for="node">NODE</label><input style="height: fit-content; margin-left: 5px;" class="skills" id="node" type="checkbox"> 
+                <label for="flutter">FLUTTER</label><input style="height: fit-content; margin-left: 5px;" class="skills" id="flutter" type="checkbox">
+                <br><br>
+                <label for="mailid">Email Id :</label>
+                <input type="email">
+                <br><br>
+                <label for="phone">Phone No :</label>
+                <input type="text">
+                <br><br>
+                <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

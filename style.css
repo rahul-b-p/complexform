@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: burlywood;
+}
+.cform{
+    margin: 50px
+    border: 1px solid burlywood;
+    background-color: brown;
+    padding: 40px;
+    border-radius: 8px;
+}
+.cform label{
+    margin-left: 20px;
+    font-size: 17px;
+    color: ghostwhite;
+}
+.cform input{
+    background-color: burlywood;
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+}
+button{
+    background-color: burlywood;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 280px;
+    color: brown;
+}
+button:hover{
+    border: 2px solid white;
+    transform: scale(20px);
+    color: white;
+    background-color: brown;
+}
+.skills{
+    background-color: burlywood;
+    border: 0px;
+    top: 1px;
+}
+@media(max-width:942px){
+    .cform{
+        margin: 100px;
+    }
+    .age{
+        display: inline-block;
+        margin-top: 10px;
+    }
+  
+}
